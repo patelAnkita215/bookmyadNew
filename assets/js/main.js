@@ -1,4 +1,7 @@
-AOS.init();
+AOS.init({
+
+  duration: 1000,
+});
 
 // for sticky header
 const header = document.getElementById("siteHeader");

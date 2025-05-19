@@ -14,6 +14,24 @@
     padding-bottom: 30px;
   }
 }
+@media (min-width: 778px) {
+    .card-graphic {
+        height: 200px;
+    }
+}
+@media (max-width: 1600px) {
+    .challenges-wrap {
+        background-color: #f1f2f2;
+        padding: 85px 5% 0 13%;
+    }
+    .challenges-wrap span {
+        font-size: 50px;
+        top: -39px;
+    }
+    .challenges-wrap h3 {
+      font-size: 18px;
+    }
+}
 @media (max-width: 1560px) {
   .site-footer {
     padding: 94px 0 60px;
