@@ -218,7 +218,8 @@ header.sticky {
 .bg-light-gray {
   background-color: var(--lightGray);
 }
-.btn-blue {
+.btn-blue,
+.btn-red {
   background-color: var(--activeBlue);
   text-decoration: none;
   color: #fff;
@@ -242,7 +243,18 @@ header.sticky {
   color: #000;
   border-color: var(--activeBlue);
 }
-.btn-blue-round {
+.btn-red {
+  background-color: #d30a0b;
+  border-color: #d30a0b;
+}
+.btn-red:hover {
+  background-color: transparent;
+  color: #000;
+  border-color: #d30a0b;
+}
+.btn-blue-round,
+.btn-red,
+.btn-light {
   padding: 12px 31px;
   font-size: 20px;
   border-radius: 50px;
@@ -260,6 +272,10 @@ header.sticky {
 }
 .new-hero-banner {
   padding: 226px 0 135px 0;
+  position: relative;
+}
+.section-padding {
+  padding: 120px 0 115px;
   position: relative;
 }
 /* hero section */
@@ -394,10 +410,6 @@ header.sticky {
   margin-bottom: 70px;
 }
 /* why section */
-.why-section {
-  padding: 120px 0 115px;
-  position: relative;
-}
 .section-subtitle {
   font-size: 20px;
   font-weight: 400;
@@ -427,6 +439,71 @@ header.sticky {
 .service-card .card-body p {
   font-size: 18px;
   line-height: 1.8em;
+}
+/* result */
+.sector-name p {
+  margin-bottom: 0;
+  max-width: 60%;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.cs-card {
+  border-radius: 40px;
+  border-top-left-radius: 0;
+  background-color: #f1f1f1;
+  position: relative;
+}
+.cs-card h3 {
+  font-size: 2rem;
+  line-height: 30px;
+  max-width: 80%;
+}
+.cs-card-body {
+  font-size: 19px;
+  line-height: 1.8em;
+}
+.sector-icon {
+  position: absolute;
+  right: 0;
+  width: auto;
+  height: 90px;
+  margin-top: -150px;
+}
+/* get in touch */
+.tell-us-form {
+  max-width: 1003px;
+  margin: 73px auto 15px;
+  width: 100%;
+}
+.tell-us-form .feild {
+  position: relative;
+  margin-bottom: 47px;
+}
+.tell-us-form .form-control {
+  padding: 10px 45px 14px 20px;
+  border: 0;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+  outline: none;
+  color: #000;
+}
+.tell-us-form .form-control:focus {
+  box-shadow: 0px 2px 0px -1px #000;
+}
+.our-client {
+  padding: 70px 0;
+}
+#logo-marquee .item {
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+}
+#logo-marquee img {
+  width: auto;
+  max-height: 100px;
+  margin: 0 auto;
 }
 /* footer */
 footer {
