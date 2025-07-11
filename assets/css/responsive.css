@@ -15,22 +15,22 @@
   }
 }
 @media (min-width: 778px) {
-    .card-graphic {
-        height: 200px;
-    }
+  .card-graphic {
+    height: 200px;
+  }
 }
 @media (max-width: 1600px) {
-    .challenges-wrap {
-        background-color: #f1f2f2;
-        padding: 85px 5% 0 13%;
-    }
-    .challenges-wrap span {
-        font-size: 50px;
-        top: -39px;
-    }
-    .challenges-wrap h3 {
-      font-size: 18px;
-    }
+  .challenges-wrap {
+    background-color: #f1f2f2;
+    padding: 85px 5% 0 13%;
+  }
+  .challenges-wrap span {
+    font-size: 50px;
+    top: -39px;
+  }
+  .challenges-wrap h3 {
+    font-size: 18px;
+  }
 }
 @media (max-width: 1560px) {
   .site-footer {
@@ -45,8 +45,222 @@
     padding-right: 0.8rem;
   }
 }
+
+@media (max-width: 1440px) {
+  .new-hero-banner {
+    padding: 180px 0 100px 0;
+    position: relative;
+  }
+  .banner-img {
+    background-size: contain;
+  }
+  .banner-content h1 {
+    font-size: 28px;
+    line-height: 38px;
+    margin: 0 0 30px 0;
+  }
+  .banner-content p {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 40px 0;
+  }
+
+  .awards-section {
+    padding: 58px 0 65px;
+  }
+  .awards-section span.round-icon {
+    width: 28px;
+    height: 28px;
+    /* left: -25px; */
+    top: 10px;
+  }
+  .awards-section span.round-icon:before {
+    width: 10px;
+    height: 10px;
+  }
+  .awards-section h5 {
+    font-size: 35px;
+  }
+  .awards-section p {
+    font-size: 18px;
+  }
+  .challenges-section .content-wrapper h2 {
+    font-size: 38px;
+  }
+  .challenges-wrap {
+    padding: 85px 3% 0 9%;
+  }
+  p {
+    font-size: 14px;
+  }
+  .section-title {
+    font-size: 38px;
+  }
+  .section-padding {
+    padding: 100px 0;
+  }
+}
+
+@media (max-width: 1366px) {
+  .awards-section {
+    padding: 38px 0 35px;
+  }
+  .awards-section span.round-icon {
+    width: 24px;
+    height: 24px;
+    left: 0;
+    top: 8px;
+  }
+  .awards-section h5 {
+    font-size: 28px;
+  }
+  .awards-section p {
+    font-size: 16px;
+  }
+  .challenges-section .content-wrapper h2 {
+    font-size: 30px;
+  }
+  .section-title {
+    font-size: 30px;
+  }
+  .section-subtitle {
+    font-size: 15px;
+  }
+  .btn-blue-round,
+  .btn-red,
+  .btn-light {
+    font-size: 15px;
+  }
+  .service-card .card-body p {
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+  .service-card-text {
+    font-size: 14px;
+  }
+  .service-card h3 {
+    font-size: 20px;
+  }
+  .image-container {
+    width: 65px;
+    height: 65px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .awards-section h5 {
+    font-size: 22px;
+  }
+  .section-padding {
+    padding: 70px 0;
+  }
+}
+@media (max-width: 1024px) {
+  .new-hero-banner {
+    padding: 130px 0 80px 0;
+  }
+  .awards-section span.round-icon {
+    width: 18px;
+    height: 18px;
+    left: -10px;
+    top: 6px;
+  }
+  .awards-section span.round-icon:before {
+    width: 6px;
+    height: 6px;
+  }
+  .awards-section p {
+    font-size: 14px;
+  }
+  .challenges-section h2 {
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: 800;
+  }
+  .challenges-section figure {
+    border-top-right-radius: 0;
+    width: 50%;
+  }
+  .section-title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .awards-section {
+    padding: 18px 0;
+  }
+  .awards-section span.round-icon {
+    width: 20px;
+    height: 20px;
+    top: 8px;
+    position: relative;
+    left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .new-hero-banner:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    opacity: 0.7;
+  }
+  .challenges-wrap span {
+    top: -22px;
+    left: -28px;
+    font-size: 36px;
+  }
+  .challenges-wrap h3 {
+    font-size: 16px;
+  }
+  .challenges-wrap p {
+    width: 90%;
+  }
+  .section-padding {
+    padding: 50px 0;
+  }
+  .card-graphic {
+    height: 200px;
+  }
+}
 @media (max-width: 767px) {
   footer {
     padding-bottom: 60px;
+  }
+  p,
+  .section-subtitle {
+    font-size: 13px;
+  }
+  .section-title {
+    font-size: 22px;
+    line-height: 1.38;
+  }
+  .challenges-section figure {
+    width: 65%;
+  }
+  .card-graphic {
+    height: 120px;
+  }
+  .banner-content h1 {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 20px 0;
+  }
+  .banner-content p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 20px 0;
+  }
+}
+@media (max-width: 640px) {
+  .challenges-section figure {
+    width: 100%;
   }
 }
