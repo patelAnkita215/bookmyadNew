@@ -104,3 +104,60 @@ $(document).ready(function(){
       }]
   });
 });
+
+// scroll to top
+$(document).ready(function () {
+
+
+     function checkVisibility() {
+         var scrollPosition = $(window).scrollTop();
+         var windowHeight = $(window).height();
+         var sectionTop = $('.scroll-section').offset().top;
+         var sectionHeight = $('.scroll-section').height();
+         var sectionBottom = sectionTop + sectionHeight - 400;
+
+
+
+         // Check if the .scroll-section is in the viewport
+         if (scrollPosition - 100 >= sectionTop && scrollPosition < sectionBottom) {
+             $('#sticky_bar,.scroll-section').addClass('sticky');
+         } else {
+             $('#sticky_bar,.scroll-section').removeClass('sticky');
+         }
+     }
+
+     // Check visibility on scroll and on load
+     if ($('.scroll-section').length) {
+         $(window).on('scroll', checkVisibility);
+
+         checkVisibility();
+     }
+
+
+     $(window).on('scroll', function () {
+
+
+         // Loop through each content div
+         $('.scroll-content > div').each(function () {
+             var currentDiv = $(this);
+             var divId = currentDiv.attr('id');
+
+             // Check if the div is in the viewport
+             if (currentDiv.is(':visible') && currentDiv[0].getBoundingClientRect().top <= window.innerHeight - 650) {
+                 // Find the matching image and change it
+                 $('#sticky_bar .img-wrap').each(function () {
+                     var imgWrap = $(this);
+                     if (imgWrap.data('id') === divId) {
+                         // Assuming you have a main image container to display the matched image
+                         var nitro_img_attr = imgWrap.find('img').attr('nitro-lazy-src')
+                         if (typeof nitro_img_attr !== 'undefined' && nitro_img_attr !== false)
+                             var imgSrc = nitro_img_attr;
+                         else
+                             var imgSrc = imgWrap.find('img').attr('src');
+                         $('#mainImageContainer').attr('src', imgSrc);
+                     }
+                 });
+             }
+         });
+     });
+ });
