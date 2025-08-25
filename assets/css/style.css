@@ -1077,3 +1077,272 @@ footer .btn-default {
   gap: 0.3rem;
   margin-top: -5.5rem;
 }
+/* Words Our Clients Sections CSS Starts Here
+=======================================================*/
+.words_our_client_sec {
+    padding: 135px 0;
+}
+.words_our_client_sec h2 {
+    margin-bottom: 60px;
+}
+.words_our_client_sec .container {
+    text-align: center;
+}
+.words_our_client_sec .container p {
+    margin-bottom: 30px;
+    font-size: 25px;
+    line-height: 1.125;
+    font-weight: bold;
+}
+.client_testimonial_wrap_main {
+    padding-bottom: 70px;
+}
+.client_testimonial_wrap_main:before, .client_testimonial_wrap_main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.client_testimonial_right {
+    width: 49.5%;
+    float: right;
+    border: solid 1px #818181;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 58px 15px;
+    min-height: 563px;
+}
+.client_review_name_logo {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;  
+    text-align: center;
+}
+.client_review_name_logo figure {
+    margin: 0;
+    display: block;
+}
+.client_review_name_logo figure img {
+    display: inline-block;
+}
+.client_testimonial_content {
+    margin-bottom: 80px;
+}
+.client_testimonial_content:last-child {
+    margin-bottom: 0;
+}
+.review_list_wrap {
+    width: calc(60% - 5px);
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 120px;
+    position: relative;
+}
+.review_number {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    background: #fed931;
+    line-height: 96px;
+    font-size: 33px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+.review_name {
+    display: block;
+    font-size: 22px;
+    line-height: 1.181818181818182;
+}
+.review_list_wrap strong {
+    font-size: 22px;
+    line-height: 1.181818181818182;
+}
+.client_testimonial_wrap {
+    width: calc(49.5% - 98px);
+    float: left;
+    border-radius: 10px;
+    padding: 0;
+    margin-left: 98px;
+    position: relative;
+    z-index: 1;
+}
+.client_testimonial_wrap_main {
+    position: relative;
+}
+.broder-pattern {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: solid 1px #818181;
+    border-radius: 10px;
+    z-index: 0;
+    display: block;
+    width: 49.5%;
+    bottom: 70px;
+}
+.broder-pattern:before, .broder-pattern:after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    right: -1px;
+    border: solid 1px #818181;
+    border-radius: 10px;
+    z-index: 0;
+    display: block;
+}
+.broder-pattern:after {
+    left: 30px;
+}
+.broder-pattern span {
+    content: "";
+    position: absolute;
+    left: 45px;
+    top: -1px;
+    bottom: -1px;
+    right: -1px;
+    border: solid 1px #818181;
+    border-radius: 10px;
+    z-index: 0;
+    display: block;
+}
+.broder-pattern span:before, .broder-pattern span:after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border: solid 1px #818181;
+    border-radius: 10px;
+    z-index: 0;
+    display: block;
+    bottom: 0;
+}
+.broder-pattern span:after {
+    left: 30px;
+}
+.client_testimonial_slide_content {
+    padding: 100px 60px 50px 42px;
+    position: relative;
+    background: url(https://www.mavlers.com/wp-content/uploads/testimonial_card_bg.png) no-repeat left bottom;
+    background-size: contain;
+    position: relative;
+    min-height: 563px;
+}
+.client_testimonial_slide_content:before, .client_testimonial_slide_content:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.client_dtl_wrap {
+    max-width: 242px;
+    display: inline-block;
+    text-align: center;
+}
+.client_dtl_wrap img {
+    display: block;
+    max-width: 242px;
+    margin-bottom: 43px;   
+    margin-left: auto;
+    margin-right: auto;
+}
+.client_dtl_wrap figcaption {
+    font-size: 18px;
+    line-height: 1.166666666666667;
+}
+.client_dtl_wrap figcaption span {
+    font-size: 28px;
+    line-height: 1.178571428571429;
+    font-weight: bold;
+    margin-bottom: 11px;
+    display: block;
+}
+.cleint_friendly_content {
+    float: right;
+    max-width: 250px;
+    padding-top: 60px;
+    padding-right: 10px;
+}
+.cleint_friendly_content li, .cleint_friendly_content p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+.play_icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -46px 0 0 -46px;
+    width: 92px;
+    height: 92px;
+    display: block;
+    background: #FFDB2D;
+    border-radius: 100%;
+    z-index: 1;
+}
+.play_icon:before {
+    content: "";
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-top: 19px solid transparent;
+    border-left: 31px solid #000000;
+    border-bottom: 19px solid transparent;
+}
+.play_icon:after {
+    content: "";
+    position: absolute;
+    top: -7px;
+    bottom: -7px;
+    left: -7px;
+    right: -7px;
+    z-index: -1;
+    display: block;
+    background: #FFDB2D;
+    opacity: 0.4;
+    border-radius: 100%;
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+}
+/* .client_testimonial_wrap {
+    overflow: hidden;
+    display: flex;
+    border: solid 1px #818181;
+    border-radius: 10px;
+} */
+.client_testimonial_slide {
+    /* min-width: 100%; */
+    border: solid 1px #818181;
+    border-radius: 10px;
+}
+.client_testimonial_wrap::before {
+    content: "";
+}
