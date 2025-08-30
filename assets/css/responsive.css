@@ -31,6 +31,9 @@
   .challenges-wrap h3 {
     font-size: 18px;
   }
+  .scroll-content h3 {
+    font-size: 46px;
+  }
 }
 @media (max-width: 1560px) {
   .site-footer {
@@ -99,6 +102,55 @@
   .section-padding {
     padding: 100px 0;
   }
+  .center-img-wrap figure {
+    width: 28%;
+  }
+  .marketing-section .center-img-wrap figure {
+    width: 40%;
+  }
+  .marketing-section .dev-lists div[class*="col-"]:nth-child(5) .wrap {
+    padding-left: 60px;
+  }
+  .marketing-section h3 {
+    font-size: 22px;
+  }
+  .scroll-content h3 {
+    font-size: 36px;
+  }
+  .scroll-content ul {
+    font-size: 20px;
+  }
+  .three-block-content {
+    padding: 100px 0;
+  }
+  .three-block-content .content-listing .wrap h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+  }
+  .three-block-content .content-listing .wrap {
+    padding-left: 30px;
+    left: -30px;
+  }
+  .three-block-content .content-listing .center .wrap {
+    left: 0;
+  }
+  .three-block-content .content-listing .first .wrap {
+    left: 0;
+  }
+  .three-block-content .content-listing div[class*="col-"]:last-child .wrap {
+    margin-bottom: 60px;
+  }
+  .three-block-content .content-listing .wrap span {
+    top: -70px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
+  }
+  .three-block-content .content-listing .wrap span:before {
+    font-size: 22px;
+    line-height: 60px;
+  }
 }
 
 @media (max-width: 1366px) {
@@ -128,7 +180,7 @@
   }
   .btn-blue-round,
   .btn-red,
-  .btn-light {
+  .btn-light,.listing-btn .btn {
     font-size: 15px;
   }
   .service-card .card-body p {
@@ -145,6 +197,19 @@
     width: 65px;
     height: 65px;
   }
+  .center-img-wrap figure {
+    width: 26%;
+  }
+  .marketing-section .center-img-wrap figure {
+    top: 37%;
+    transform: translate(-50%, -50%);
+  }
+  .scroll-content h3 {
+    font-size: 30px;
+  }
+  .three-block-content .content-listing .wrap {
+    padding-right: 50px;
+  }
 }
 
 @media (max-width: 1280px) {
@@ -153,6 +218,35 @@
   }
   .section-padding {
     padding: 70px 0;
+  }
+  .marketing-section .dev-lists div[class*="col-"] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .marketing-section .dev-lists div[class*="col-"] .wrap {
+    max-width: 280px;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .marketing-section .dev-lists div[class*="col-"]:nth-child(even) .wrap {
+    max-width: 280px;
+  }
+  .marketing-section .dev-lists div[class*="col-"]:nth-child(5) .wrap {
+    padding-left: 30px;
+  }
+  .marketing-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .three-block-content .content-listing .wrap {
+    max-width: 350px;
+  }
+}
+@media (max-width: 1199px) {
+  .three-block-content.white-bg span.bg-pattern {
+    width: 392px;
+    height: 305px;
+    left: 0;
   }
 }
 @media (max-width: 1024px) {
@@ -186,6 +280,59 @@
   .section-title {
     font-size: 24px;
   }
+  .marketing-section .center-img-wrap figure {
+    width: 35%;
+    top: 30%;
+    margin: 0 auto;
+  }
+  .center-img-wrap figure img {
+    width: 100%;
+  }
+  .scroll-content h3 {
+    font-size: 24px;
+  }
+  .scroll-content ul {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .scroll-content ul li {
+    margin-bottom: 18px;
+  }
+  .content-section .icon {
+    height: 60px;
+    width: 60px;
+  }
+  .scroll-content ul li:before {
+    top: 0;
+  }
+  .three-block-content .content-listing .wrap {
+    margin-bottom: 100px;
+    max-width: 320px;
+  }
+  .three-block-content .content-listing .center .wrap {
+    margin: 0 auto 100px;
+  }
+  .three-block-content .content-listing .wrap:after {
+    top: 0;
+    height: calc(100% + 20px);
+  }
+  .three-block-content .content-listing .wrap:before {
+    bottom: -21px;
+  }
+  .three-block-content .content-listing .center .wrap {
+    top: 0;
+  }
+  .three-block-content .content-listing .wrap h3 {
+    font-size: 16px;
+  }
+  .three-block-content .content-listing .wrap:before {
+    width: 15px;
+    height: 15px;
+    left: -7px;
+  }
+  .three-block-content {
+    padding: 50px 0;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -198,6 +345,14 @@
     top: 8px;
     position: relative;
     left: 0;
+  }
+  .btn a,
+  .btn-blue {
+    padding: 6px 25px;
+    font-size: 12px;
+  }
+  .scroll-content .btn-blue {
+    font-size: 12px;
   }
 }
 
@@ -229,6 +384,50 @@
   .card-graphic {
     height: 200px;
   }
+  .center-img-wrap figure {
+    width: 100%;
+    position: static;
+    text-align: center;
+    transform: none;
+  }
+  .marketing-section .center-img-wrap figure {
+    width: 100%;
+    position: static;
+    transform: none;
+    margin-bottom: 20px;
+  }
+  .marketing-section .dev-lists div[class*="col-"] {
+    width: 100%;
+  }
+  .marketing-section .dev-lists div[class*="col-"] .wrap,
+  .marketing-section .dev-lists div[class*="col-"]:nth-child(even) .wrap {
+    max-width: 100%;
+    margin: 0;
+  }
+  .marketing-section .dev-lists div[class*="col-"]:nth-child(5) .wrap {
+    left: 0;
+    padding-left: 0px;
+  }
+  .service-section .col-left {
+    display: none;
+  }
+  .service-section .col-right {
+    width: 100%;
+  }
+  .scroll-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .scroll-content > div {
+    margin-bottom: 90px;
+    width: 50%;
+    padding: 0 15px;
+  }
+  .bg-img {
+    padding-bottom: 100%;
+    background-size: cover;
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 767px) {
   footer {
@@ -258,364 +457,515 @@
     line-height: 24px;
     margin: 0 0 20px 0;
   }
+  .center-img-wrap figure {
+    margin-bottom: 20px;
+  }
+  .marketing-section p {
+    line-height: 22px;
+  }
+  .scroll-content > div {
+    margin-bottom: 55px;
+  }
+  .three-block-content .content-listing .wrap h3 {
+    font-size: 18px;
+  }
+  .three-block-content .content-listing .wrap p {
+    line-height: 1.53;
+  }
+  .three-block-content .content-listing .wrap:after {
+    height: 100%;
+  }
+  .three-block-content .content-listing .wrap:before {
+    bottom: 0;
+  }
+  .three-block-content {
+    padding: 40px 0;
+  }
+  .three-block-content .section-title {
+    padding-bottom: 0;
+    margin-bottom: 40px;
+  }
+  .three-block-content .content-listing .wrap {
+    margin-bottom: 40px;
+  }
+  .three-block-content .content-listing .first .wrap {
+    /*padding: 0 80px 0 0;*/
+    padding: 0;
+  }
+  .three-block-content .content-listing .center .wrap {
+    /*padding: 0 60px 0 60px;*/
+    padding: 0;
+    margin: 0 auto 30px;
+    margin-left: 0;
+    margin-top: 50px;
+  }
+  .three-block-content .content-listing .first .wrap {
+    margin-left: 0;
+    top: 0;
+  }
+  .three-block-content .content-listing .last .wrap {
+    /*padding: 0 0 0 110px;*/
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .three-block-content .content-listing div[class*="col-"]:last-child .wrap {
+    margin-bottom: 10px;
+  }
+  .three-block-content .content-listing .first .wrap:after,
+  .three-block-content .content-listing .first .wrap:before {
+    display: none;
+  }
+  .three-block-content
+    .content-listing
+    div[class*="col-"]:first-child
+    .wrap:after {
+    display: block;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    top: auto;
+    left: 0;
+  }
+  .three-block-content
+    .content-listing
+    div[class*="col-"]:first-child
+    .wrap:before {
+    right: 0;
+    left: auto;
+    top: auto;
+    bottom: -7px;
+    display: block;
+  }
+  .three-block-content .content-listing div[class*="col-"] .wrap {
+    padding-bottom: 25px;
+  }
+  .three-block-content .content-listing .center .wrap:after {
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    top: auto;
+  }
+  .three-block-content .content-listing .center .wrap:before {
+    right: 0;
+    left: auto;
+    top: auto;
+    bottom: -7px;
+    display: block;
+  }
+  .three-block-content .container {
+    max-width: 480px;
+  }
+  .three-block-content .content-listing div[class*="col-"].last .wrap {
+    padding-bottom: 25px;
+    left: 0;
+    margin-bottom: 25px;
+  }
+  .three-block-content .content-listing .wrap span {
+    top: -50px;
+    left: 0;
+    width: 40px;
+    height: 40px;
+  }
+  .three-block-content .content-listing .wrap span:before {
+    font-size: 16px;
+    line-height: 40px;
+  }
+  .three-block-content .content-listing .wrap {
+    margin-top: 50px;
+    margin-left: 0;
+  }
 }
 @media (max-width: 640px) {
   .challenges-section figure {
     width: 100%;
   }
+  .scroll-content > div {
+    width: 100%;
+    text-align: center;
+  }
+  .scroll-content h3 {
+    font-size: 15px;
+    width: 400px;
+    margin: 0 auto 20px;
+    text-align: left;
+    max-width: 100%;
+  }
+  .scroll-content ul {
+    margin-bottom: 30px;
+    text-align: left;
+    width: 249px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .three-block-content .content-listing .wrap:after {
+    height: calc(100% + 10px);
+  }
+  .three-block-content .content-listing .wrap:before {
+    bottom: -12px;
+  }
 }
 
 /* Words Our Clients Sections CSS Starts Here */
 @media only screen and (max-width: 1770px) {
-    .client_testimonial_slide_content {
-        padding: 100px 20px 50px 20px;
-    }
-    .client_testimonial_slide_content {
-        background-size: 110%;
-        background-position: -100px bottom;
-    }
+  .client_testimonial_slide_content {
+    padding: 100px 20px 50px 20px;
+  }
+  .client_testimonial_slide_content {
+    background-size: 110%;
+    background-position: -100px bottom;
+  }
 }
 @media only screen and (max-width: 1560px) {
-    .challenges_burning_sec {
-        padding: 90px 0 20px;
-    }
-    .remodel_outsourcing_sec {
-        padding: 70px 0;
-    }
-    .take_quiz_sec {
-        padding: 85px 0 100px;
-        overflow: hidden;
-    }
-    .take_quiz_sec figure {
-        bottom: -103px;
-        width: 35%;
-    }
-    .take_quiz_content {
-        padding: 50px 120px 60px;
-    }
-    .take_quiz_sec h2 {
-        max-width: 1050px;
-    }
-    .words_our_client_sec {
-        padding: 95px 0;
-    }
-    .client_dtl_wrap {
-        padding-top: 30px;
-    }
-    .play_icon {
-        margin: -31px 0 0 -31px;
-        width: 72px;
-        height: 72px;
-    }
-    .cleint_friendly_content {
-        padding-top: 0;
-    }
-    .client_dtl_wrap img {
-        max-width: 180px;
-    }
-    .client_testimonial_slide_content {
-        background-position: -190px bottom;
-        background-size: 130%;
-    }
+  .challenges_burning_sec {
+    padding: 90px 0 20px;
+  }
+  .remodel_outsourcing_sec {
+    padding: 70px 0;
+  }
+  .take_quiz_sec {
+    padding: 85px 0 100px;
+    overflow: hidden;
+  }
+  .take_quiz_sec figure {
+    bottom: -103px;
+    width: 35%;
+  }
+  .take_quiz_content {
+    padding: 50px 120px 60px;
+  }
+  .take_quiz_sec h2 {
+    max-width: 1050px;
+  }
+  .words_our_client_sec {
+    padding: 95px 0;
+  }
+  .client_dtl_wrap {
+    padding-top: 30px;
+  }
+  .play_icon {
+    margin: -31px 0 0 -31px;
+    width: 72px;
+    height: 72px;
+  }
+  .cleint_friendly_content {
+    padding-top: 0;
+  }
+  .client_dtl_wrap img {
+    max-width: 180px;
+  }
+  .client_testimonial_slide_content {
+    background-position: -190px bottom;
+    background-size: 130%;
+  }
 }
 @media only screen and (max-width: 1367px) {
-    .challenges_bun_list ul li:nth-child(3) {
-        margin-left: 70px;
-    }
-    .challenges_bun_list ul li:nth-child(2) {
-        margin-left: 140px;
-    }
-    .challenges_bun_list ul li:first-child {
-        margin-left: 210px;
-    }
-    .remodel_outsourcing_content h2 {
-        margin-bottom: 50px;
-    }
-    .remodel_outsourcing_content ul li {
-        margin-bottom: 50px;
-        -ms-flex: 0 0 40%;
-        flex: 0 0 40%;
-        max-width: 40%;
-    }
-    .remodel_outsourcing_map_left {
-        padding-right: 50px;
-    }
-    .take_quiz_sec h2 {
-        margin-bottom: 70px;
-    }
-    .broder-pattern span {
-        display: none;
-    }
-    .client_testimonial_wrap {
-        margin-left: 48px;
-        width: calc(49.5% - 48px);
-    }
-    .client_testimonial_slide_content {
-        padding: 80px 20px 40px 20px;
-        min-height: 500px;
-    }
-    .client_review_name_logo figure {
-        padding: 0 40px;
-    }
-    .review_number {
-        width: 86px;
-        height: 86px;
-        line-height: 86px;
-        font-size: 28px;
-    }
-    .review_list_wrap {
-        padding-left: 110px;
-    }
-    .review_name {
-        font-size: 20px;
-    }
-    .review_list_wrap strong {
-        font-size: 20px;
-    }
-    .client_testimonial_right {
-        min-height: 504px;
-    }
-    .client_testimonial_content {
-        margin-bottom: 50px;
-    }
+  .challenges_bun_list ul li:nth-child(3) {
+    margin-left: 70px;
+  }
+  .challenges_bun_list ul li:nth-child(2) {
+    margin-left: 140px;
+  }
+  .challenges_bun_list ul li:first-child {
+    margin-left: 210px;
+  }
+  .remodel_outsourcing_content h2 {
+    margin-bottom: 50px;
+  }
+  .remodel_outsourcing_content ul li {
+    margin-bottom: 50px;
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+  .remodel_outsourcing_map_left {
+    padding-right: 50px;
+  }
+  .take_quiz_sec h2 {
+    margin-bottom: 70px;
+  }
+  .broder-pattern span {
+    display: none;
+  }
+  .client_testimonial_wrap {
+    margin-left: 48px;
+    width: calc(49.5% - 48px);
+  }
+  .client_testimonial_slide_content {
+    padding: 80px 20px 40px 20px;
+    min-height: 500px;
+  }
+  .client_review_name_logo figure {
+    padding: 0 40px;
+  }
+  .review_number {
+    width: 86px;
+    height: 86px;
+    line-height: 86px;
+    font-size: 28px;
+  }
+  .review_list_wrap {
+    padding-left: 110px;
+  }
+  .review_name {
+    font-size: 20px;
+  }
+  .review_list_wrap strong {
+    font-size: 20px;
+  }
+  .client_testimonial_right {
+    min-height: 504px;
+  }
+  .client_testimonial_content {
+    margin-bottom: 50px;
+  }
 }
 @media only screen and (max-width: 1199px) {
-    .challenges_bun_list ul li h3 {
-        font-size: 20px;
-    }
-    .challenges_burning_sec {
-        padding: 70px 0 10px;
-    }
-    .take_quiz_content p {
-        font-size: 20px;
-    }
-    .take_quiz_content {
-        padding: 40px 90px 45px;
-    }
-    .take_quiz_sec figure {
-        left: 30px;
-    }
-    .take_quiz_sec {
-        padding: 70px 0 70px;
-    }
-    .take_quiz_sec figure {
-        bottom: -75px
-    }
-    .client_dtl_wrap figcaption span {
-        font-size: 20px;
-    }
-    .client_dtl_wrap figcaption {
-        font-size: 16px;
-    }
-    .client_dtl_wrap img {
-        max-width: 170px;
-        margin-bottom: 25px;
-    }
-    .cleint_friendly_content {
-        max-width: 170px;
-    }
-    .client_testimonial_slide_content {
-        background-position: -240px bottom;
-        background-size: 150%;
-    }
-    .play_icon {
-        margin: -17px 0 0 -17px;
-    }
+  .challenges_bun_list ul li h3 {
+    font-size: 20px;
+  }
+  .challenges_burning_sec {
+    padding: 70px 0 10px;
+  }
+  .take_quiz_content p {
+    font-size: 20px;
+  }
+  .take_quiz_content {
+    padding: 40px 90px 45px;
+  }
+  .take_quiz_sec figure {
+    left: 30px;
+  }
+  .take_quiz_sec {
+    padding: 70px 0 70px;
+  }
+  .take_quiz_sec figure {
+    bottom: -75px;
+  }
+  .client_dtl_wrap figcaption span {
+    font-size: 20px;
+  }
+  .client_dtl_wrap figcaption {
+    font-size: 16px;
+  }
+  .client_dtl_wrap img {
+    max-width: 170px;
+    margin-bottom: 25px;
+  }
+  .cleint_friendly_content {
+    max-width: 170px;
+  }
+  .client_testimonial_slide_content {
+    background-position: -240px bottom;
+    background-size: 150%;
+  }
+  .play_icon {
+    margin: -17px 0 0 -17px;
+  }
+  .center-img-wrap figure {
+    width: 20%;
+  }
 }
 @media only screen and (max-width: 1024px) {
-    .challenges_bun_list ul li:nth-child(3) {
-        margin-left: 40px;
-    }
-    .challenges_bun_list ul li:nth-child(2) {
-        margin-left: 80px;
-    }
-    .challenges_bun_list ul li:first-child {
-        margin-left: 120px;
-    }
-    .challenges_bun_list ul li {
-        margin-bottom: 30px;
-    }
-    .remodel_outsourcing_sec {
-        padding: 50px 0;
-    }
-    .challenges_bun_list ul li h3 {
-        font-size: 18px;
-    }
-    .title_icon_col {
-        width: 100%;
-        padding: 0;
-    }
-    .challenges_bun_list {
-        width: 100%;
-        padding: 0;
-    }
-    .remodel_outsourcing_map_left {
-        width: 100%;
-        float: none;
-        padding: 0 0 30px;
-    }
-    .remodel_outsourcing_content_right {
-        width: 100%;
-        float: none;
-        padding: 0 15px
-    }
-    .remodel_outsourcing_content h2 {
-        margin-bottom: 30px;
-    }
-    .remodel_outsourcing_content ul li {
-        margin-bottom: 30px;
-        padding: 25px 0 0 0;
-    }
-    .take_quiz_sec figure {
-        position: static;
-        margin: 0 auto;
-        width: 100%;
-        max-width: 350px;
-    }
-    .take_quiz_content {
-        width: 100%;
-    }
-    .take_quiz_sec h2 {
-        margin-bottom: 30px;
-    }
-    .take_quiz_content {
-        width: 100%;
-        text-align: center;
-        padding: 40px 70px 30px;
-    }
-    .take_quiz_content .d-flex {
-        display: block;
-    }
-    .take_quiz_content p {
-        margin-bottom: 30px;
-    }
-    .broder-pattern {
-        display: none;
-    }
-    .client_testimonial_wrap {
-        margin-left: 0;
-        width: 100%;
-    }
-    .client_testimonial_wrap_main {
-        padding: 0 30px 50px;
-    }
-    .client_testimonial_right {
-        min-height: auto;
-        width: 100%;
-        margin-top: 20px;
-    }
-    .client_testimonial_slide_content {
-        background-position: -20px bottom;
-        background-size: 100%;
-    }
-    .cleint_friendly_content {
-        max-width: 240px;
-    }
-    .words_our_client_sec {
-        padding: 50px 0;
-    }
-    .btn.btn-block.d-flex {
-        justify-content: center;
-    }
+  .challenges_bun_list ul li:nth-child(3) {
+    margin-left: 40px;
+  }
+  .challenges_bun_list ul li:nth-child(2) {
+    margin-left: 80px;
+  }
+  .challenges_bun_list ul li:first-child {
+    margin-left: 120px;
+  }
+  .challenges_bun_list ul li {
+    margin-bottom: 30px;
+  }
+  .remodel_outsourcing_sec {
+    padding: 50px 0;
+  }
+  .challenges_bun_list ul li h3 {
+    font-size: 18px;
+  }
+  .title_icon_col {
+    width: 100%;
+    padding: 0;
+  }
+  .challenges_bun_list {
+    width: 100%;
+    padding: 0;
+  }
+  .remodel_outsourcing_map_left {
+    width: 100%;
+    float: none;
+    padding: 0 0 30px;
+  }
+  .remodel_outsourcing_content_right {
+    width: 100%;
+    float: none;
+    padding: 0 15px;
+  }
+  .remodel_outsourcing_content h2 {
+    margin-bottom: 30px;
+  }
+  .remodel_outsourcing_content ul li {
+    margin-bottom: 30px;
+    padding: 25px 0 0 0;
+  }
+  .take_quiz_sec figure {
+    position: static;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 350px;
+  }
+  .take_quiz_content {
+    width: 100%;
+  }
+  .take_quiz_sec h2 {
+    margin-bottom: 30px;
+  }
+  .take_quiz_content {
+    width: 100%;
+    text-align: center;
+    padding: 40px 70px 30px;
+  }
+  .take_quiz_content .d-flex {
+    display: block;
+  }
+  .take_quiz_content p {
+    margin-bottom: 30px;
+  }
+  .broder-pattern {
+    display: none;
+  }
+  .client_testimonial_wrap {
+    margin-left: 0;
+    width: 100%;
+  }
+  .client_testimonial_wrap_main {
+    padding: 0 30px 50px;
+  }
+  .client_testimonial_right {
+    min-height: auto;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .client_testimonial_slide_content {
+    background-position: -20px bottom;
+    background-size: 100%;
+  }
+  .cleint_friendly_content {
+    max-width: 240px;
+  }
+  .words_our_client_sec {
+    padding: 50px 0;
+  }
+  .btn.btn-block.d-flex {
+    justify-content: center;
+  }
+  .center-img-wrap figure {
+    width: 24%;
+  }
 }
 @media only screen and (max-width: 767px) {
-    .challenges_bun_list ul li {
-        margin-left: 0 !important;
-    }
-    .words_our_client_sec h2 {
-        margin-bottom: 30px;
-    }
-    .client_testimonial_slide_content {
-        max-height: 420px;
-    }
-    .words_our_client_sec .container p {
-        font-size: 20px;
-    }
+  .challenges_bun_list ul li {
+    margin-left: 0 !important;
+  }
+  .words_our_client_sec h2 {
+    margin-bottom: 30px;
+  }
+  .client_testimonial_slide_content {
+    max-height: 420px;
+  }
+  .words_our_client_sec .container p {
+    font-size: 20px;
+  }
 }
 @media only screen and (max-width: 640px) {
-    .remodel_outsourcing_content ul li {
-        -ms-flex: 0 0 45%;
-        flex: 0 0 45%;
-        max-width: 45%;  
-    }
-    .take_quiz_content {
-        border-radius: 20px;
-        padding: 30px 30px 25px;
-    }
-    .client_review_name_logo {
-        width: 100%;
-        display: block;
-        margin-bottom: 15px;
-    }
-    .review_list_wrap {
-        padding-left: 0;
-        width: 100%;
-        text-align: center;
-    }
-    .review_number {
-        position: static;
-        margin: 0 auto 20px;
-        display: block;
-        transform: translate(0);
-        -webkit-transform: translate(0);
-        -ms-transform: translate(0);
-        -o-transform: translate(0);
-        -moz-transform: translate(0);
-    }
-    .client_testimonial_right {
-        padding: 30px 15px;
-    }
-    .client_testimonial_content {
-        margin-bottom: 60px;
-    }
-    .client_dtl_wrap {
-        max-width: 100%;
-        display: block;
-        text-align: center;
-    }
-    .client_dtl_wrap img {
-        display: inline-block;
-    }
-    .cleint_friendly_content {
-        float: none;
-        max-width: 100%;
-        padding-top: 25px;
-        padding-left: 10px;
-        min-width: 100%;
-        width: 100%;
-        text-align: center;
-    }
-    .cleint_friendly_content li, .cleint_friendly_content p {
-        padding: 0;
-        margin-bottom: 10px;
-        font-size: 16px;
-    }
-    .cleint_friendly_content li:before {
-        display: none;
-    }
-    .play_icon {
-        width: 52px;
-        height: 52px;
-    }
-    .client_testimonial_slide{margin-bottom: 20px!important;}
-    .client_testimonial_slide_content {
-        padding: 20px 20px 30px 20px;
-        min-height: 100%;
-        max-height: 100%;
-    }
-    .play_icon {
-        margin: -47px 0 0 -27px;
-    }
-    .play_icon:before {
-        border-top: 12px solid transparent;
-        border-left: 20px solid #000000;
-        border-bottom: 12px solid transparent;
-    }
+  .remodel_outsourcing_content ul li {
+    -ms-flex: 0 0 45%;
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+  .take_quiz_content {
+    border-radius: 20px;
+    padding: 30px 30px 25px;
+  }
+  .client_review_name_logo {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+  }
+  .review_list_wrap {
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .review_number {
+    position: static;
+    margin: 0 auto 20px;
+    display: block;
+    transform: translate(0);
+    -webkit-transform: translate(0);
+    -ms-transform: translate(0);
+    -o-transform: translate(0);
+    -moz-transform: translate(0);
+  }
+  .client_testimonial_right {
+    padding: 30px 15px;
+  }
+  .client_testimonial_content {
+    margin-bottom: 60px;
+  }
+  .client_dtl_wrap {
+    max-width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .client_dtl_wrap img {
+    display: inline-block;
+  }
+  .cleint_friendly_content {
+    float: none;
+    max-width: 100%;
+    padding-top: 25px;
+    padding-left: 10px;
+    min-width: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  .cleint_friendly_content li,
+  .cleint_friendly_content p {
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .cleint_friendly_content li:before {
+    display: none;
+  }
+  .play_icon {
+    width: 52px;
+    height: 52px;
+  }
+  .client_testimonial_slide {
+    margin-bottom: 20px !important;
+  }
+  .client_testimonial_slide_content {
+    padding: 20px 20px 30px 20px;
+    min-height: 100%;
+    max-height: 100%;
+  }
+  .play_icon {
+    margin: -47px 0 0 -27px;
+  }
+  .play_icon:before {
+    border-top: 12px solid transparent;
+    border-left: 20px solid #000000;
+    border-bottom: 12px solid transparent;
+  }
 }
 @media only screen and (max-width: 480px) {
-    .remodel_outsourcing_content ul li {
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;  
-    }
+  .remodel_outsourcing_content ul li {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
